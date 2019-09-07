@@ -1,7 +1,7 @@
 {
   "name": "contact-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is a task managment app made by js",
   "main": "webpack.config.dev.js",
   "scripts": {
     "build": "webpack --config=webpack.config.dev.js",
@@ -9,8 +9,8 @@
     "wacth": "webpack -w --config=webpack.config.dev.js",
     "start": "json-server --watch ./api/db.json"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["task","managment"],
+  "author": "Rabbi",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.5.5",
