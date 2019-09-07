@@ -67,7 +67,7 @@ const TaskControl = (() => {
     },
     getCompletedTaskCount() {
       return data.task.reduce((acc, CurrateTask) => {
-        if (CurrateTask.complated === true) {
+        if (CurrateTask.completed === true) {
           acc++;
           return acc;
         } else {
@@ -368,6 +368,7 @@ const AppControl = (function(taskData, ui, StorageControl) {
       //count completedTask
       const completdTaskCoutn = TaskControl.getCompletedTaskCount();
 
+      console.log(completdTaskCoutn);
       //show completedTask in ui
       ui.showCompletedTask(completdTaskCoutn);
 
